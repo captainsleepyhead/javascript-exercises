@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tiles</title>
+    </head>
+    <script>
+        const getTheTitles = function(arry) {
+        debugger;
+        arry.reduce(((arryOfStrings, object)=> {
+
+            arryOfStrings.push(object.title)
+            return arryOfStrings}),[]
+            );
+        };
+        const books = [
+      {
+        title: 'Book',
+        author: 'Name'
+      },
+      {
+        title: 'Book2',
+        author: 'Name2'
+      }
+    ];
+    getTheTitles(books);
+    </script>
+</html>
